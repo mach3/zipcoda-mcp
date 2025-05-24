@@ -1,0 +1,44 @@
+# Source files (ビルド済みファイルを使用するため)
+src/
+
+# テスト関連
+tests/
+vitest.config.ts
+coverage/
+
+# 開発環境設定
+.github/
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript設定（ビルド後は不要）
+tsconfig.json
+*.tsbuildinfo
+.tsc-cache/
+
+# Biomeの設定
+biome.json
+
+# その他の開発用ファイル
+.gitignore
+.npmignore
+
+# 環境変数ファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.jsの一時ファイル
+node_modules/
+.pnpm-store/
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
