@@ -119,5 +119,3 @@ server.resource(
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
-
-console.log("Server started. Waiting for messages...");
